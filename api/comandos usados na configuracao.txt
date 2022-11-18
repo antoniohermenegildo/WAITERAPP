@@ -1,0 +1,34 @@
+1. yarn init -y (cria arquivo package.json)
+
+2. yarn add -D typescript (instalacao do typescript como dependencia de desenvolvimento)
+
+3. yarn tsc --init (cria o arquivo de config do typescript )
+
+4. yarn tsc (cria os arquivos js através dos arquivos ts criados com a mesma estrutura de pastas)
+
+5. dentro do arquivo tsconfig criado no passo 3 da pra criar um diretorio para que seja salvo os arquivos do comando do passo 4 em um unico diretorio
+"outDir": "./dist", /* Specify an output folder for all emitted files. */ todos os arquivos serao criados nesse diretorio mantendo a estrutura de pastas dos arquivos em ts
+
+6. criar arquivo ".gitignore" que tera a aconfig dos arquivos que nao vao subir para o git
+
+7. git init (inicia o git no projeto)
+
+8. npm init @eslint/config (fazer a configuracao da extensao eslint que serve para padronizar a formatacao do codigo)
+
+9. yarn add express (instalacao do express(dependencia de producao) pra criacao do servidor)
+
+10. yarn add -D @types/express (instalacao do pacote para fazer a tipagem do express)
+
+11. yarn add -D ts-node (dependencia de desenvolvimento) para nao precisar ficar buildando os arquivos para rodar o servico
+
+12.yarn ts-node src/index.ts (roda o servico sem precisar ficar fazendo o buid do projeto direto atraves do arquivo ts)
+
+13. yarn add -D nodemon (-D é dependencia de desenvolvimento) serve para ficar monitorando por alteracoes de arquivos e reestarta o servidor
+
+14. yarn add mongoose (para fazer conexao e manipulacao do banco de dados)
+
+15. Precisa instalar o mongo desktop e o Insomnia atraves dos sites
+
+16. yarn add multer (para trabalhar as conversoes dos dados dos creates )
+
+17. yarn add -D @types/multer (instalação dos tipos da bilbioteca multer)
